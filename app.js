@@ -8,8 +8,7 @@ const result = excelToJson({
 //console.log(result);
 
 const sgMail = require("@sendgrid/mail");
-const APIkey =
-  "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";
+const APIkey = "*";
 
 sgMail.setApiKey(APIkey);
 
